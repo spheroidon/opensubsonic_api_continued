@@ -36,7 +36,7 @@ import '../models/components/starred/starred.model.dart';
 import '../models/components/token_info/token_info.model.dart';
 import '../models/components/user/user.model.dart';
 import '../models/components/users/users.model.dart';
-import '../models/components/video_info/video_info';
+import '../models/components/video_info/video_info.model.dart';
 import '../models/components/videos/videos.model.dart';
 import '../models/responses/subsonic_empty_data.model.dart';
 import '../models/responses/subsonic_response.model.dart';
