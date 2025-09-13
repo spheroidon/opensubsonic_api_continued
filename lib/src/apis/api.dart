@@ -1085,7 +1085,7 @@ abstract class SubsonicApiClient {
   /// - [videoConversionRole] (Since 1.15.0) Whether the user is allowed to start video conversions.
   /// - [musicFolderId] (Since 1.12.0) IDs of the music folders the user is allowed access to. Include the parameter once for each folder.
   /// - [maxBitRate] (Since 1.13.0) The maximum bit rate (in Kbps) for the user. Audio streams of higher bit rates are automatically downsampled to this bit rate. Legal values: 0 (no limit), 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320.
-  /// @GET('/rest/updateUser')
+  @GET('/rest/updateUser')
   Future<SubsonicResponse<SubsonicNoData>> updateUser(
     @Query('username') String username, {
     @Query('password') String? password,
